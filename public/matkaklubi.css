@@ -235,7 +235,7 @@ nav a:hover
 
 .card img
 {
-    size: auto;
+    width: auto;
 }
 
 @media screen and (max-width: 1200px)

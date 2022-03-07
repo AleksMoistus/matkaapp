@@ -1,0 +1,502 @@
+body
+{
+    color: black;
+}
+
+.headerSection
+{
+    background-image: url('Assets/Hills.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 980px;
+}
+
+#logo
+{
+    width: 67px;
+    height: 64px;
+    margin-top: 5px;
+    margin-bottom: 6px;
+    margin-right: 18.5px;
+}
+
+#logoText
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 33px;
+    color: black;
+    letter-spacing: 0px;
+    line-height: 33px;
+    width: 126px;
+    height: 100%;
+    opacity: 1;
+    padding-top: 5px;
+    
+}
+
+.container
+{
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    max-width: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row
+{
+margin-top: 2rem;
+margin-left: 4rem;
+margin-right: 4rem;
+justify-content: space-between;
+}
+
+.row2
+{
+margin-left: 4rem;
+justify-content: space-between;
+}
+
+.row3
+{
+    width: 100%;
+}
+
+.col-5
+{
+    width: 250px;
+    flex: none;
+    max-width: none;
+}
+
+nav
+{
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 0px;
+    max-width: 751px;
+    min-width: 751px;
+    justify-content: flex-end;
+}
+
+.nav-home
+{
+    width: 11%;
+    text-align: center;
+}
+
+.nav-fam
+{
+    width: 33%;
+    text-align: center;
+}
+
+.nav-up
+{
+    width: 33%;
+    text-align: center;
+}
+
+.nav-con
+{
+    width: 23%;
+    text-align: center;
+}
+
+nav a
+{
+    text-decoration: none;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16.67px;
+    font-weight: bold;
+    letter-spacing: 2.67px;
+    height: 20px;
+    padding: 5px;
+    padding-bottom: 28px;
+}
+
+nav a:hover
+{
+    text-decoration: none;
+    color: rgb(109, 109, 109);
+}
+
+.headerSection-H
+{
+    padding-top: 210px;
+}
+
+.headerSection-H h1
+{
+    font-size: 74.39px;
+    font-weight: bold;
+    text-align: left;
+    letter-spacing: 0px;
+    margin-bottom: 0px;
+    margin-left: -3px;
+    height: 91px;
+    max-width: none;
+}
+
+.headerSection-H h2
+{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 0px;
+    height: 48px;
+}
+
+#rowh2
+{
+    width: 520px;
+}
+
+.headerSection-H h3
+{
+    font-size: 21px;
+    font-weight: bold;
+    text-align: left;
+    letter-spacing: 0px;
+    margin-bottom: 0px;
+    height: 21px;
+}
+
+.bflyBr
+{
+    width: 70px;
+    height: 62px;
+    margin-left: auto;
+    margin-top: -40px;
+}
+
+.bflyBl
+{
+    width: 60px;
+    height: 32px;
+    margin-right: -22px;
+    margin-top: 9px;
+    margin-left: -38px;
+}
+
+.row3 a
+{
+    color: white;
+    font-size: 12.5px;
+    text-decoration: none;
+    font-weight: 800;
+    letter-spacing: 2.25px;
+    line-height: 15px; 
+}
+
+#rowa
+{
+    width: 247px;
+    height: 58px;  
+    background-color: black;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+#rowa:hover
+{
+    background-color: rgb(83, 83, 83);
+}
+
+.headerSection-I
+{
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.hikerImg
+{
+    width: 914px;
+    height: 914px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 50px;
+}
+
+.shadowImg
+{
+    width: 1091px;
+    height: 89px;
+    margin-left: -25px;
+    margin-top: -40px;
+}
+
+@media screen and (max-width: 1200px)
+{
+    nav
+    {
+        flex-direction: row;
+        flex-wrap: wrap;
+        min-width: 450px;
+    }
+
+    .nav-home
+    {
+        width: 50%;
+    }
+
+    .nav-fam
+    {
+        width: 50%;
+    }
+
+    .nav-up
+    {
+        width: 50%;
+    }
+
+    .nav-con
+    {
+        width: 50%;
+    }
+
+    .headerSection-I
+    {
+        display: none;
+    }
+
+    .headerSection-H
+    {
+        padding-top: 100px;
+        min-width: 550px;
+    }
+
+    .row2
+    {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 850px)
+{
+    nav
+    {
+        flex-direction: column;
+        min-width: 110px;
+        align-items: flex-end;
+    }
+
+    .nav-home
+    {
+        width: 100%;
+        max-width: 210px;
+    }
+
+    .nav-fam
+    {
+        width: 100%;
+        max-width: 210px;
+    }
+
+    .nav-up
+    {
+        width: 100%;
+        max-width: 210px;
+    }
+
+    .nav-con
+    {
+        width: 100%;
+        max-width: 210px;
+    }
+
+    nav a
+    {
+        padding-bottom: 5px;
+       
+    }
+
+    .col-7
+    {
+         padding-right: 0px;
+         padding-left: 50px;
+    }
+
+    .col-5
+    {
+        width: 100px;
+        align-items: center;
+    }
+
+    .row
+    {
+        margin-right: 2rem;
+        margin-left: 2rem;
+    }
+
+    .row2
+    {
+        margin-right: 2rem;
+        margin-left: 2rem;
+    }
+
+    #logoText
+    {
+        display: flex;
+        align-items: center;
+        font-size: 26px;
+        line-height: 26px;
+        padding-top: 0px;
+        width: auto;
+    }
+
+    #logo
+    {
+        width: 53.5px;
+        height: 51px;
+    }
+
+    .headerSection-H h1
+{
+    font-size: 50px;
+    height: 60px;
+    text-align: center;
+    width: 100%;
+}
+
+.headerSection-H h2
+{
+    font-size: 26px;
+    height: 32px;
+    text-align: center;
+    width: 100%;
+}
+
+.headerSection-H h3
+{
+    font-size: 14px;
+    height: 14px;
+    text-align: center;
+    width: 100%;
+}
+
+.bflyBr
+{
+    width: 70px;
+    height: 62px;
+    margin-left: -70px;
+    margin-top: -40px;
+}
+
+.bflyBl
+{
+   display: none;
+}
+
+.row3 a
+{
+    color: white;
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+
+#rowa
+{
+    width: 200px;
+    height: 45px;  
+    margin-top: 10px;
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+}
+
+@media screen and (max-width: 580px)
+{
+    nav
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-home
+    {
+        width: 100%;
+    }
+
+    .nav-fam
+    {
+        width: 100%;
+    }
+
+    .nav-up
+    {
+        width: 100%;
+    }
+
+    .nav-con
+    {
+        width: 100%;
+    }
+
+    nav a
+    {
+        padding-bottom: 5px;
+        font-size: 13px;
+        font-weight: bold;
+        letter-spacing: 2.67px;
+        padding: 5px; 
+    }
+
+    .col-7
+    {
+         padding-right: 0px;
+         padding-left: 0px;
+         width: 100%;
+    }
+
+    .col-5
+    {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        padding: 0px;
+        min-width: none;
+        height: auto;
+    }
+
+    .row
+    {
+        margin: 0px;
+        justify-content: center;
+        min-width: 356px;
+        min-height: none;
+        margin-top: 20px;
+    }
+
+    .row2
+    {
+        justify-content: center;
+        min-width: 356px;
+        min-height: none;
+    }
+
+    #logoText
+    {
+        display: flex;
+        align-items: center;
+        font-size: 22px;
+        line-height: 22px;
+        padding-top: 0px;
+        width: auto;
+    }
+
+    #logo
+    {
+        width: 44.5px;
+        height: 42.5px;
+    }
+}

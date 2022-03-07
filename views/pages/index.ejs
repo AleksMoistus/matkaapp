@@ -2,68 +2,44 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="matkaklubi.css">
+  <%- include ("../partials/head.ejs") %>
     <title>Matkaklubi</title>
 </head>
 
 <body>
-    <div class="headerSection d-flex">
-        <div class="container">
-            <div class="row d-flex">
-                <div class="col-5 d-flex tl">
-                    <img src="Assets/klubilogo.png" alt="" id="logo">
-                    <div id="logoText">
-                        HIKING CLUB
-                    </div>
-                </div>
-                <nav class="col-7 nav d-flex">
-                    <div class="nav-home"><a href="/">HOME</a></div>
-                    <div class="nav-up"><a href="#">UPCOMING TREKS</a></div>
-                    <div class="nav-fam"><a href="#">TREK FOR FAMILY</a></div>
-                    <div class="nav-con"><a href="/kontakt">CONTACT US</a></div>
-                </nav>
+  <div class="headerSection d-flex">
+    <div class="container">
+      <%- include ("../partials/header.ejs") %>
+        <div class="row2 d-flex">
+          <div class="headerSection-H col-6">
+            <div class="row3 d-flex" id="rowh2">
+              <h2>
+                CLIMB FOR BETTER
+              </h2>
+              <img src="Assets/ButterflyBrown.png" alt="" class="bflyBr">
             </div>
-            <div class="row2 d-flex">
-                <div class="headerSection-H col-6">
-                    <div class="row3 d-flex" id="rowh2">
-                        <h2>
-                            CLIMB FOR BETTER
-                        </h2>
-                        <img src="Assets/ButterflyBrown.png" alt="" class="bflyBr">
-                    </div>
-                    <div class="row3 d-flex">
-                        <img src="Assets/ButterflyBlue.png" alt="" class="bflyBl">
-                        <h1>
-                            GET OUT NOW
-                        </h1>
-                    </div>
-                    <div class="row3">
-                        <h3>
-                            JOIN US FOR THE WEEKEND
-                        </h3>
-                    </div>
-                    <div class="row3 d-flex" id="rowa">
-                         <a href="#">VIEW UPCOMING TREKS</a>
-                    </div>
-                </div>
-                <div class="headerSection-I col-6">
-                       <img src="Assets/Image.png" alt="" class="hikerImg">
-                       <img src="Assets/Shadow.png" alt="" class="shadowImg">
-                </div>
+            <div class="row3 d-flex">
+              <img src="Assets/ButterflyBlue.png" alt="" class="bflyBl">
+              <h1>
+                GET OUT NOW
+              </h1>
             </div>
+            <div class="row3">
+              <h3>
+                JOIN US FOR THE WEEKEND
+              </h3>
+            </div>
+            <div class="row3 d-flex" id="rowa">
+              <a href="#">VIEW UPCOMING TREKS</a>
+            </div>
+          </div>
+          <div class="headerSection-I col-6">
+            <img src="Assets/Image.png" alt="" class="hikerImg">
+            <img src="Assets/Shadow.png" alt="" class="shadowImg">
+          </div>
         </div>
     </div>
+  </div>
 </body>
 
 </html>

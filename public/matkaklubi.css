@@ -233,7 +233,7 @@ nav a:hover
     margin-top: -40px;
 }
 
-.card img
+.card-img-top
 {
     max-height:  none;
     min-height: 50px;

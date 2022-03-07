@@ -233,6 +233,11 @@ nav a:hover
     margin-top: -40px;
 }
 
+.card img
+{
+    size: auto;
+}
+
 @media screen and (max-width: 1200px)
 {
     nav

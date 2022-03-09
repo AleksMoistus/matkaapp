@@ -21,14 +21,14 @@ const hike3 = {
   imgURL: "../../public/Assets/foresthike.jpg"
 }
 
-const matkad = [matk1, matk2, matk3]
+const hikes = [hike1, hike2, hike3]
 
 
 express()
   .use(express.static(path.join(__dirname, 'public')))
   .set('views', path.join(__dirname, 'views'))
   .set('view engine', 'ejs')
-  .get('/', (req, res) => res.render('pages/index', {matkad: matkad}))
+  .get('/', (req, res) => res.render('pages/index', {hikes: hikes}))
   .get('/kontakt', (req, res) => res.render('pages/kontakt'))
   .get('/upcoming', (req, res) => res.render('pages/upcoming'))
   .listen(PORT, () => console.log(`Listening on ${ PORT }`))

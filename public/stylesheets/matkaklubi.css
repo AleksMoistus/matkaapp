@@ -5,7 +5,7 @@ body
 
 .headerSection
 {
-    background-image: url('Assets/Hills.png');
+    background-image: url('../Assets/Hills.png');
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -19,6 +19,13 @@ body
     margin-top: 5px;
     margin-bottom: 6px;
     margin-right: 18.5px;
+}
+
+#view-up-treks
+{
+    width: 247px;
+    height: 58px;
+    padding-top: 20px;
 }
 
 #logoText

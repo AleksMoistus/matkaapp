@@ -30,7 +30,7 @@
               </h3>
             </div>
             <div class="row3 d-flex" id="rowa">
-              <a href="#">VIEW UPCOMING TREKS</a>
+              <a href="/upcoming" id="view-up-treks">VIEW UPCOMING TREKS</a>
             </div>
           </div>
           <div class="headerSection-I col-6">
@@ -38,23 +38,6 @@
             <img src="Assets/Shadow.png" alt="" class="shadowImg">
           </div>
         </div>
-    </div>
-  </div>
-  <div class="treksSection container">
-    <div class="row">
-      <% for(let i=0; i < hikes.length; i++) { %>
-      <div class="col-md-4 card">
-        <img class="card-img-top" src="<%= hikes[i].imgURL %>"">
-        <div class="card-body">
-          <h4 class="card-title"><%= hikes[i].name %></h4>
-          <p>
-            <%= hikes[i].description %>
-          </p>
-          <p>Participants: <%= hikes[i].part.length %></p>
-          <a href="#" class="btn btn-primary">Register</a>
-        </div>
-      </div>
-      <% } %>
     </div>
   </div>
 </body>

@@ -44,12 +44,13 @@
     <div class="row">
       <% for(let i=0; i < hikes.length; i++) { %>
       <div class="col-md-4 card">
-        <img class="card-img-top" src="<%= matkad[i].imgURL %>"">
+        <img class="card-img-top" src="<%= hikes[i].imgURL %>"">
         <div class="card-body">
-          <h4 class="card-title"><%= matkad[i].name %></h4>
+          <h4 class="card-title"><%= hikes[i].name %></h4>
           <p>
-            <%= matkad[i].description %>
+            <%= hikes[i].description %>
           </p>
+          <p>Participants: <%= hikes[i].part.length %></p>
           <a href="#" class="btn btn-primary">Register</a>
         </div>
       </div>
@@ -57,5 +58,4 @@
     </div>
   </div>
 </body>
-
 </html>
